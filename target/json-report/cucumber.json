@@ -1,0 +1,136 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 22,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "User is on the login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "User enters the credentials \u003cusername\u003e and \u003cpassword\u003e",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "usernaname",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "Admin",
+                  "admin123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "User Clicks on Login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "User is redirected to the Home page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-28T03:45:03.586Z",
+        "line": 32,
+        "name": "Testing the Search functionality with Employment Status DropDown Menu",
+        "description": "",
+        "id": "testing-pim-page-functionalities;testing-the-search-functionality-with-employment-status-dropdown-menu",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "User is on PIM Page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "User select an Element from Employment Status DropDown",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "User clicks on Saerch button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36,
+            "name": "A result is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Build"
+          },
+          {
+            "name": "@Normal"
+          }
+        ]
+      }
+    ],
+    "name": "Testing PIM Page Functionalities",
+    "description": "",
+    "id": "testing-pim-page-functionalities",
+    "keyword": "Feature",
+    "uri": "file:Features/PIM_Page.feature",
+    "tags": [
+      {
+        "name": "@Build",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
